@@ -18,7 +18,7 @@ const About = () => {
 
   return (
     <>
-      <h2 className="head-text">I Know that <span>Good Design</span> <br />means  <span>Good Business</span></h2>
+      <h2 className="head-text">A user interface is like a  <span>Joke</span> <br />If you have to explain it, its not that <span>Good</span></h2>
 
       <div className="app__profiles">
         {abouts.map((about, index) => (
