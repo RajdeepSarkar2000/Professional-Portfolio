@@ -18,9 +18,9 @@
 
   img {
     width: 200px;
-    height: 200px;
+    height: auto;
     border-radius: 5%;
-    // object-fit: cover;
+    object-fit: cover;
   }
 
   @media screen and (min-width: 2000px) {
