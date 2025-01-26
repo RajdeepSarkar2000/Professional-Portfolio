@@ -6,11 +6,11 @@
   align-items: center;
 
   padding: 1rem 2rem;
-  background: rgba(97, 242, 30, 0.3);
+  background: #87cefa;
   // box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
-  border: 1px solid rgba(97, 242, 30, 0.3);
+  border: 1px solid #87cefa;
   position: fixed;
   z-index: 2;
 }
@@ -19,7 +19,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin-top:-40px;
+  margin-top: -40px;
 
   img {
     width: 150px;
@@ -56,7 +56,7 @@
     }
 
     a {
-      color: var(--dark-green-color);
+      color: var(--dark-blue);
       text-decoration: none;
       flex-direction: column;
 
@@ -66,13 +66,14 @@
       transition: all 0.3s ease-in-out;
 
       &:hover {
-        color: var(--darker-green-color);
+        color: var(--secondary-color);
+        scale: 1.1;
       }
     }
 
     &:hover {
       div {
-        background: var(--dark-green-color);
+        background: var(--dark-blue);
       }
     }
   }
@@ -93,7 +94,6 @@
   align-items: center;
   background-color: var(--secondary-color);
 
-
   svg {
     width: 70%;
     height: 70%;
@@ -111,13 +111,13 @@
 
     width: 80%;
     height: 100vh;
-    
+
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction: column;
-    
-    background: url('../../assets/bgWhite.png');
+
+    background: url("../../assets/bgWhite.png");
     background-color: var(--white-color);
     background-size: cover;
     background-repeat: repeat;
