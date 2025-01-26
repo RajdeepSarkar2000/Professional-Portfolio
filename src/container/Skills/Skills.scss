@@ -104,13 +104,15 @@
 
 .app__skills-exp-works {
   flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  gap: 1.5rem;
 
   .app__skills-exp-work {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    margin-bottom: 1rem;
     cursor: pointer;
 
     h4 {
@@ -153,5 +155,17 @@
     font-size: 1.75rem !important;
     max-width: 500px !important;
     line-height: 2 !important;
+  }
+}
+
+.skill-text {
+  color: black !important;
+  font-size: 0.8rem;
+  text-align: left;
+  line-height: 1.5;
+  font-weight: 600;
+
+  @media screen and (min-width: 2000px) {
+    font-size: 1.75rem;
   }
 }
