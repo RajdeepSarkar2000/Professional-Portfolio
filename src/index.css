@@ -10,11 +10,23 @@
   --gray-color: #6b7688;
   --brown-color: #46364a;
   --white-color: #ffffff;
-  --dark-green-color:#12a523;
-  --darker-green-color:#015504;
+  --dark-green-color: #12a523;
+  --darker-green-color: #015504;
   --light-green-color: #aff17f;
-  --lighter-green-color:#9cefc6;
-  
+
+  --dark-blue: #003366;
+  --light-blue: #87cefa;
+  --lighter-green-color: linear-gradient(
+    to bottom,
+    var(--light-blue),
+    var(--dark-blue)
+  );
+
+  --blue-gradient: linear-gradient(
+    to bottom,
+    var(--light-blue),
+    var(--dark-blue)
+  );
 }
 
 * {
