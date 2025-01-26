@@ -100,8 +100,8 @@ const Footer = () => {
             </button>
           </div>
           <div className="copyright">
-            <p className="p-text">@{currentYear} Rajdeep</p>
-            <p className="p-text">All rights reserved</p>
+            <p className="copyright-text">@{currentYear} Rajdeep Sarkar</p>
+            <p className="copyright-text">All rights reserved</p>
           </div>
         </>
       ) : (

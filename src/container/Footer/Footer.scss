@@ -45,7 +45,7 @@
       font-weight: 500;
     }
     &:hover {
-      box-shadow: 0 0 25px var(--light-green-color);
+      box-shadow: 0 0 25px var(--light-blue);
     }
 
     @media screen and (max-width: 450px) {
@@ -63,7 +63,7 @@
 }
 
 .app__footer-cards .app__footer-card:last-child:hover {
-  box-shadow: 0 0 25px var(--light-green-color);
+  box-shadow: 0 0 25px var(--light-blue);
 }
 
 .app__footer-form {
@@ -99,7 +99,7 @@
     }
 
     &:hover {
-      box-shadow: 0 0 25px var(--light-green-color);
+      box-shadow: 0 0 25px var(--light-blue);
     }
   }
 
@@ -126,5 +126,16 @@
   @media screen and (max-width: 768px) {
     width: 100%;
     margin: 1rem 0;
+  }
+}
+
+.copyright-text {
+  font-size: 0.8rem;
+  color: black;
+  line-height: 1.5;
+  text-transform: uppercase;
+
+  @media screen and (min-width: 2000px) {
+    font-size: 1.75rem;
   }
 }
